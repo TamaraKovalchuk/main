@@ -1,0 +1,27 @@
+body {
+    background-color:  #F5F5DC;
+    font-family: "COMIC SANS MS"; 
+ 	font-style: normal;
+  ba
+}
+.c-red {
+	color: red;
+}
+    ol {
+  counter-reset: section;
+  list-style-type: none;
+}
+
+li:before {
+  counter-increment: section;
+  content: counters(section, ".") ". ";
+  }
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+ ;
+}
+
+  
